@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Midias dinâmicas em HTML5</h1>
+    <p>Tente abrir em dispositivos com tamanhos de tela diferentes.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="imagem">
+    </picture>
+    <h1>Audio</h1>
+    <p>Vamos aprender a trabalhar com audio no HTML5.</p>
+    <audio preload="metadata" controls>
+        <source src="audio/Sweaty Staredown - The Soundings.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Vídeos</h1>
+    <p>Para vídeos fazer o mesmo que foi feito com audios.</p>
+    <h1>Usando vídeos externos.</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jfKfPfyJRdk?si=lgDbQtW_Q1m_CT8A"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+</body>
+</html>
